@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Мои карточки</title>
+<style>
+body {
+background-color: #f2f2f2;
+font-family: Arial, sans-serif;
+padding: 20px;
+}
+
+h1, h2 {
+font-family: "Times New Roman", serif;
+text-align: center;   
+color: #333;
+}
+
+.container {
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.section {
+background-color: #ffffff;
+padding: 25px;
+border-radius: 10px;
+margin-bottom: 30px;
+}
+
+.flex-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap: 20px;
+}
+
+.card {
+width: 150px;
+height: 150px;
+border-radius: 10px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 10px;
+font-size: 18px;
+}
+
+.card1 { background-color: #e57373; font-family: Arial; }
+.card2 { background-color: #81c784; font-family: "Courier New"; }
+.card3 { background-color: #64b5f6; font-family: Georgia; }
+.card4 { background-color: #ffb74d; font-family: Verdana; }
+.card5 { background-color: #ba68c8; font-family: "Comic Sans MS"; }
+
+.card6 { background-color: #4db6ac; font-family: Impact; }
+.card7 { background-color: #7986cb; font-family: Tahoma; }
+.card8 { background-color: #a1887f; font-family: "Trebuchet MS"; }
+.card9 { background-color: #90a4ae; font-family: "Lucida Console"; }
+.card10 { background-color: #f06292; font-family: "Palatino Linotype"; }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>Карточки на Flexbox и Grid</h1>
+
+<div class="section">
+<h2>Flexbox</h2>
+<div class="flex-container">
+<div class="card card1">Сахар</div>
+<div class="card card2">Ложка</div>
+<div class="card card3">Монклер</div>
+<div class="card card4">Можно?</div>
+<div class="card card5">50 Баллов? пж</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Grid</h2>
+<div class="grid-container">
+<div class="card card6">Мышка</div>
+<div class="card card7">Клавиатура</div>
+<div class="card card8">Монитор</div>
+<div class="card card9">Карта</div>
+<div class="card card10">Ромб</div>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
